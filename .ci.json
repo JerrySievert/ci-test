@@ -1,0 +1,20 @@
+{
+  "version": 0.1,
+  "build": "make",
+  "install" "make install",
+  "test": "make installcheck",
+  "matrix": {
+    "amd64": [
+      "postgres-10",
+      "postgres-11",
+      "postgres-12",
+      "postgres-13"
+    ],
+    "arm64": [
+      "postgres-10",
+      "postgres-11",
+      "postgres-12",
+      "postgres-13"
+    ]
+  }
+}
